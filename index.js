@@ -157,4 +157,4 @@ for (const [company, data] of Object.entries(companyData)) {
   out.on('finish', () => console.log(`Graph for ${company.replace(/_/g, ' ')} saved as PNG.`));
 }
 
-console.log('Complete. Summary CSV and graphs generated.');
+// console.log('Complete. Summary CSV and graphs generated.');
